@@ -23,8 +23,8 @@ git pull <br>
 git merge <br>
 git branch <br>
 
-참고자료 : https://rogerdudler.github.io/git-guide/index.ko.html
-참고자료2 : https://nolboo.kim/blog/2013/10/06/github-for-beginner
-참고자료3 : https://backlog.com/git-tutorial/kr/intro/intro1_1.html
+참고자료 : https://rogerdudler.github.io/git-guide/index.ko.html <br>
+참고자료2 : https://nolboo.kim/blog/2013/10/06/github-for-beginner <br>
+참고자료3 : https://backlog.com/git-tutorial/kr/intro/intro1_1.html <br>
 
 안드로이드 스튜디오 사용법
