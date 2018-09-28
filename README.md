@@ -7,21 +7,29 @@
 
 
 ### Git
-1. Git이란?
- 분산 버전 관리 프로그램
+* Git이란?<br>
+ 분산 버전 관리 프로그램.
  
-2. Git 명령어
->git init <br>
-git config --global user.email "userId"
-git config --global user.name "userName"
+ 
+* Git 명령어
+<pre>
+git init <br>
+git config --global user.email "userId"<br>
+git config --global user.name "userName"<br>
 git remote add / remove <br>
 git push <br>
 git pull <br>
-//git pull Error 뜰 때
-//git pull origin branchname --allow-unrelated-histories
-출처: http://cpdev.tistory.com/51 [하루하나]
+git pull Error 뜰 때
+*git pull origin branchname --allow-unrelated-histories
+
 git merge <br>
 git branch <br>
+</pre>
+이외에도 git 관련 명령어가 많음
+pull request 하고 git Repository 관리자가 승인 해주는 구조
+
+초보자용으로 Github Desktop이 존재
+사용을 권하진 않음.
 
 참고자료 : https://rogerdudler.github.io/git-guide/index.ko.html <br>
 참고자료2 : https://nolboo.kim/blog/2013/10/06/github-for-beginner <br>
