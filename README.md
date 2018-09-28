@@ -24,7 +24,9 @@ git pull Error 뜰 때
 
 git merge <br>
 git branch <br>
-git checkout -b "git명"
+git checkout -b "git명" <br>
+
+git clone :: 아마 가장 많이 쓰게 될꺼임<br>
 </pre>
 이외에도 git 관련 명령어가 많음
 pull request 하고 git Repository 관리자가 승인 해주는 구조
