@@ -7,11 +7,11 @@
 
 
 ### Git
-* Git이란?<br>
+**Git이란?**<br>
  분산 버전 관리 프로그램.
  
  
-* Git 명령어
+**Git 명령어**
 <pre>
 git init <br>
 git config --global user.email "userId"<br>
@@ -35,4 +35,5 @@ pull request 하고 git Repository 관리자가 승인 해주는 구조
 참고자료2 : https://nolboo.kim/blog/2013/10/06/github-for-beginner <br>
 참고자료3 : https://backlog.com/git-tutorial/kr/intro/intro1_1.html <br>
 
-안드로이드 스튜디오 사용법
+**안드로이드 스튜디오**
+매니
