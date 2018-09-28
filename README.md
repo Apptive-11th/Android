@@ -24,6 +24,7 @@ git pull Error 뜰 때
 
 git merge <br>
 git branch <br>
+git checkout -b "git명"
 </pre>
 이외에도 git 관련 명령어가 많음
 pull request 하고 git Repository 관리자가 승인 해주는 구조
