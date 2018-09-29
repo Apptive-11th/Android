@@ -46,6 +46,7 @@ pull request 하고 git Repository 관리자가 승인 해주는 구조
 클래스에 멤버,메소드 구현해보기.<br>
 
 2. Git에대한 명령어 정리하기<br>
+기본적인 것들만<br>
 
 3. 안드로이드 스튜디오 설치하기 <br>
 JAVA설치<br>
