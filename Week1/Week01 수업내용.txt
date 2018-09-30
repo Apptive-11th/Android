@@ -1,0 +1,35 @@
+﻿cd desktop  //바탕화면으로 들어가기
+mkdir Apptive //Apptive 폴더 만들기
+cd Apptive //만든 Apptive 폴더 들어가기 
+
+git init
+
+git config --global user.email "userId"
+
+git config --global user.name "userName"
+
+git config -l 로 설정된걸확인
+
+로컬은 구현완료.
+-----------------------------------
+깃허브 연동과정
+git remote add origin https://github.com/Apptive-11th/Android.git
+
+git remote 치시면
+origin이 있는걸 확인할 수 있음.
+
+git pull origin master (origin과 연결된 github에 있던 파일을 본인 로컬로 다운받는 과정)
+
+git checkout -b "branch명"
+
+git add * //모든 파일을 깃에다가 담겠다.
+
+git status // New file 본인이 담긴 파일을 확인할 수 있다.
+
+git commit -m "제목 알아보기 쉽게"
+
+git push~~ 해서
+
+github로그인 후
+
+Github 홈페이지에서 pull request 요청하기.
