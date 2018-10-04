@@ -1,0 +1,14 @@
+git init : 현재 경로를 초기화
+
+git config : 유저Id, 유저명 등을 설정
+
+git checkout (-b) : 브랜치 이동/생성
+
+git add : push 할 파일 설정
+
+git commit (-m) : commit할 파일들에 대한 코멘트
+
+git push : 변경된 파일을 헌재 branch 로 업로드
+
+git pull : 현재 브랜치를 받아옴
+
