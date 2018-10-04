@@ -1,0 +1,14 @@
+git config --global user.name " "
+git config --global user.email " " 이건 git을 할때 무조건 설정해줘야 올라간다.
+git config -list라고하면 위에서 정의한 내용이 list로 나온다
+git clone URL 이라고하면 web에서 만든 repository를 clone해준다
+이렇게 clone이 되면 directory가 생긴다.
+git init : 새로운 repository를 생성한다.
+git add : stage area로 figit commit -m "First git" : 특정 메세지를 부여하고 commit시키는 커맨드.
+le을 올릴수있다
+git reset HEAD -- filename : 아직 commit하기전에 state에 올라간 파일을 다시 내린다.
+git pull origin master : 최근변화를 다운로드하는것
+git push [remote-name] [branch-name] 최종 업로드
+git branch : 하면 현재 모든 branch를 알려준다.
+git checkout branchname : 현재 branch를 branchname으로 바꾼다.
+git checkout -b [branch-name] : 새로운 branch를 만듬과 동시에 이동!
