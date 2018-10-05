@@ -1,7 +1,8 @@
 # 2주차 Android 강의
 ## 강의 순서
-1. Android Project 만들기
-2. 안드로이드 스튜디오 구성살펴보기 <br>
+## 1. Android Project 만들기
+## 2. 안드로이드 스튜디오 구성살펴보기 <br>
+<pre>
 + mainfests
 AndroidMantifest.xml : 안드로이드 앱에 관한 기본정보및 액티비티 관리
 
@@ -30,22 +31,24 @@ Layout이 되는 xml을 저장하는 곳. 아마 자주 많이 생성될 파일�
 
 + java/../
 안드로이드에서 주가 되는 언어인 자바를 보관하는 장소.<br>
-
-3. 액티비티와 뷰란?
+</pre>
+## 3. 액티비티와 뷰란?
+<pre>
 액티비티 : 안드로이드 앱은 여러개의 화면으로 구성되어져있는데 하나의 스크린 즉 화면을 구성하는 것. <br>
-뷰 : 화면을 구성하는 일반적인 요소들. 텍스트 박스, 입력폼, 버튼, 슬라이더, 뷰페이저, Linear Layout, Constraint Layout 등등~<br>
+뷰 : 화면을 구성하는 일반적인 요소들. 텍스트 박스, 입력폼, 버튼, 슬라이더, 뷰페이저,<br>
+Linear Layout, Constraint Layout 등등~<br>
 즉 Android는 액티비티 위에 하나이상의 뷰가 올라가져 있는 구조<br>
 Plus 설명 : 뷰를 묶는 뷰그룹또한 뷰를 상속받는 구조 즉 뷰그룹또한 액티비티위에 올라가야 하고 뷰그룹위에 뷰가 올라가는 구조이다.<br>
 뷰 그룹 : 뷰를 묶어 놓을 수 있는것들 Linear Layout ~ Constraint Layout등등, 뷰를 상속받아서 뷰의 기능을 사용할 수 있다. <br>
 
 각각의 생명주기 : https://kairo96.gitbooks.io/android/content/ch2.4.1.html <br>
 onCreate 랑 onResume로 구현해서 보여주기 <br>
-
+</pre>
 참고자료:https://medium.com/android-develop-android/android%EA%B0%9C%EB%B0%9C-2-activity%EC%99%80-layout-view-74aa6df503b8 <br>
 안드로이드 기본 용어 설명: https://kairo96.gitbooks.io/android/content/ch2.1.html <br>
 안드로이드 기본 뷰 종류: https://kairo96.gitbooks.io/android/content/ch3.2.html <br>
 
-4. Layout
+## 4. Layout
 Layout은 뷰그룹을 상속한다. <br>
 종류가 다양하니 그걸 알아보자 <br>
 LinearLayout<br>
@@ -55,8 +58,8 @@ RelativeLayout<br>
 ApsoluteLayout<br>
 뭐 많은데 각자 사용하실 Layout 차차 익혀 가시길...<br>
 
-5. Binding 하기
+## 5. Binding 하기
 왜 Binding 하는지<br>
 
-6. Layout 실습
+## 6. Layout 실습
 Linear를 통해서 간단하게 만들어보기
