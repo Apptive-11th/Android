@@ -1,0 +1,149 @@
+
+package class_extend;
+
+public class School {
+	
+	public String school_name = "PNU";
+	public String school_class = "University";
+
+	private String[][] class_student_name = {
+		{"student1", "student2"},
+		{"student3", "student4"},
+		{"student5", "student6"}
+	};
+
+	private String[] class_teacher_name = {
+		"Mr.Lee",
+		"Mr.Shin",
+		"Mr.Eom"
+	};
+
+	public School() {
+		System.out.println(school_name + "  " + school_class):
+	}
+
+	public String getBan(String name) {
+		for(int i=0 ; i<class_student_name.length; i++){
+			for(int j=0; j<class_student_name[i].length; j++{
+				if(class_student_name[i][j].equals(name)){
+					return (i+1)+" ";
+				}
+			}
+		}
+		return null;
+	}
+
+	public String getTeacherName(String student_name){
+		for(int i=0 ; i<class_student_name.length; i++){
+			for(int j =0 ; j<class_student_name[i].length; j++){	
+				if(class_student_name[i][j].equals(student_name)){
+					return class_teacher_name[i];
+				}
+			}
+		}
+		return null;
+	}
+
+	public String [] getFriends(String student_name){
+		for(int i =0 ; i<class_student_name.length;i++){
+			for(int j =0;j<class_student_name[i].length;j++){
+				if(class_student_name[i][j].equals(student_name)){
+					return class_student_name[i];
+				}
+			}
+		}
+		return null;
+	}
+}
+
+
+package class_extend;
+
+public class Teacher extends School{
+	public Teacher(){
+		System.out.println("반 확인 프로그램");
+	}
+
+	@Override
+	public String getBan(String name){
+		return super.getBan(name)+"반";
+	}
+}
+
+	
+package class_extend;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Student extends Teacher {
+	private String name;
+	public Student() {
+		super();
+		start();
+	}
+
+	private void start() {
+		BufferedReader in = new BuffereedReader(new InputStreamReader(System.in));
+		System.out.print("당신의 이름을 쓰세요 >> ");
+		try{
+			name = in.readLine();
+			if(super.getBan(name) == null {
+				System.out.println("당신은 우리 학교 학생이 아닙니다.");
+				return;
+			}
+			System.out.println("당신의 담임 : " + super.getTeacherName(name));
+	
+			System.out.println("당신의 반 : " + super.getBan(name));
+
+			String[] friends = super.getFriends(name);
+			System.out.print("반 친구들 : { ");
+			for(int i=0; i<friends.length; i++) {
+				System.out.print(friends[i] + "  ");
+			}
+			System.out.println("} ");
+		}
+	
+		catch(IOException e) {
+			System.err.println("err!");
+		}
+	}
+
+	public static void main(String[] ar) {
+		new Student();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
