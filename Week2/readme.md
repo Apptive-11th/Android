@@ -63,3 +63,9 @@ ApsoluteLayout<br>
 
 ## 6. Layout 실습
 Linear를 통해서 간단하게 만들어보기
+
+## 과제
++ View 넣어보기 (text,button,텍스트 입력,switch,slider 등등)<br>
++ Life Cycle 구현하기 (oncreate, onResume, onStop 등등)<br> 
++ 몬드리안 구현해보기
+<img src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/3sWA/image/NRg5wA6NjBS4sR2SbIdBTvNUIiI.jpg" width="300px">
