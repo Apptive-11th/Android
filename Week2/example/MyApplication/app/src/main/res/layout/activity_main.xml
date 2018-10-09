@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    >
+    <!--
+    LinearLayout 속성
+    orientation : 뷰 배치를 가로로 할지 세로로 할지
+    WeightSum : 비율의 합계 뷰가들고있는 layout_weight와 비율적인 길이가 됨
+
+    weight를 사용한다면
+    뷰 배치가 가로 배치일경우 width를 0dp
+    세로배치라면 height를 0dp
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/colorPrimary"
+        android:padding="5px"
+        >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#cccccc"
+        android:layout_margin="10px"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apptive"
+            android:id="@+id/test"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
