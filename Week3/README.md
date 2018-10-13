@@ -20,6 +20,17 @@ MVC란 Model View Controller의 약자로 에플리케이션을 세가지의 역
 참고 http://recipes4dev.tistory.com/43
 
 ## 프래그 먼트 
+Fragment는 동작 또는 Activity 내에서 사용자 인터페이스의 일부를 나타냅니다.<br>
+여러 개의 프래그먼트를 하나의 액티비티에 조합하여 창이 여러 개인 UI를 구축할 수 있으며,<br> 하나의 프래그먼트를 여러 액티비티에서 재사용할 수 있습니다.<br> 프래그먼트는 자체 수명 주기를 가지고, 자체 입력 이벤트를 받으며, 액티비티 실행 중에 추가 및 제거가 가능한 액티비티의 모듈식 섹션이라고 생각하면 됩니다(다른 액티비티에 재사용할 수 있는 "하위 액티비티"와 같은 개념).
+
 
 참고 https://developer.android.com/guide/components/fragments?hl=ko
+프래그먼트 생명주기: https://developer88.tistory.com/69
+
 ## 뷰페이저
+
+
+## 과제
+1. Activity와 Fragment차이 알아오기
+2. Fragment 생명주기 알아오기
+3. Custom ListView 사용해서 KaKao 친구창 
