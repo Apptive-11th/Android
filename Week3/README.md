@@ -27,7 +27,35 @@ Fragment는 동작 또는 Activity 내에서 사용자 인터페이스의 일부
 참고 https://developer.android.com/guide/components/fragments?hl=ko
 프래그먼트 생명주기: https://developer88.tistory.com/69
 
-## 뷰페이저
+## 과제 피드백
+
+**최유완** 1.5점 <br>
+과제 제출OK,<br>
+Custom List View OK <br>
+프래그먼트, 프래그먼트 Cycle 에 대한 설명 미흡 <br>
+카카오톡과 유사도 6점 (10점 만점)<br>
+<br>
+
+**박인오** 1.0점<br>
+과제 제출 OK, <br>
+Custom List View Ok <br>
+프래그먼트, 프래그먼트 Cycle에 대한 설명 X <br>
+대신 프래그먼트에 대해 구현해옴 버튼 이벤트까지 <br>
+카카오톡과 유사도 2점 (10점 만점)<br>
+<br>
+
+**이정민** 0.5점<br>
+과제 제출 OK, <br>
+프레그먼트에 대한 이해도 OK<br>
+Custom List View X -> 4주차 떄 제출 할 것<br>
+ => 현재 Adapter에 데이터를 삽입하는 함수가 없음 그부분 수정해서 4주차 때 제출 바람!<br>
+카카오톡과 유사도 1점 (10점 만점)<br>
+<br>
+
+**손덕현** 0점 <br>
+과제 미제출<br>
+다음주 제출 혹은<br>
+0점<br>
 
 
 ## 과제
