@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainLinearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-40dp" />
+
+    <LinearLayout
+        android:background="#dbdbdb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:id="@+id/mainLinearLayout">
+
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:id="@+id/tab_btn_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_people_black_18dp"/>
+
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:id="@+id/tab_btn_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_chat_bubble_black_18dp"/>
+
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:id="@+id/tab_btn_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_web_black_18dp"/>
+
+        <ImageButton
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:id="@+id/tab_btn_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/baseline_more_horiz_black_18dp"/>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/mainLinearLayout"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</RelativeLayout>
