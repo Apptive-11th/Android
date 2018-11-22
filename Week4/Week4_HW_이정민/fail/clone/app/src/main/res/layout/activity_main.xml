@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/friends"
+                android:text="친구"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="visible"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/chatting"
+                android:text="채팅"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/news"
+                android:text="#"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/plus"
+                android:text="친구"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:visibility="invisible"/>
+
+        </FrameLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/viewpager"
+            android:layout_weight="8">
+
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tab"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_friends"
+                android:layout_weight="1"
+                android:text="친구"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_chatting"
+                android:layout_weight="1"
+                android:text="채팅"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_news"
+                android:layout_weight="1"
+                android:text="#"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_plus"
+                android:layout_weight="1"
+                android:text="더보기"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
