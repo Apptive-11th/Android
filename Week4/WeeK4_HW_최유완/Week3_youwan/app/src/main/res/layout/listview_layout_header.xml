@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:layout_marginVertical="5dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/my_profile_img"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최유완"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/my_profile_name"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="#ebebeb"
+        android:layout_marginTop="6dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center|left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천친구"
+                android:layout_marginTop="6dp"
+                android:textSize="12dp"/>
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center|left"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/recom_friend"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="새로운 친구를 만나보세요!"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="#ebebeb"
+        android:layout_marginTop="6dp"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginVertical="5dp"
+        android:orientation="horizontal"
+        android:background="#FFF">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center|left">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="플러스친구"
+                android:layout_marginTop="6dp"
+                android:textSize="12dp"/>
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center|left"
+                android:id="@+id/puls_friend_img"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="플러스 친구"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="1dp"
+        android:background="#ebebeb"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/friend_num"
+        android:text="친구수15"
+        android:layout_marginTop="10dp"
+        android:textSize="12dp"/>
+
+</LinearLayout>
