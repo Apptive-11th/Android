@@ -8,19 +8,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:text=" 친구"/>
 
-    <ScrollView
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/listView_friends" />
-
-    </ScrollView>
+        android:layout_height="wrap_content"
+        android:id="@+id/listView_friends" />
 
 
 </LinearLayout>
